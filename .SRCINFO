@@ -5,6 +5,7 @@ pkgbase = mingw-w64-openlibm
 	url = http://www.openlibm.org
 	arch = any
 	license = GPL
+	makedepends = mingw-w64-make
 	depends = mingw-w64-crt
 	options = !strip
 	options = !buildflags
@@ -15,4 +16,3 @@ pkgbase = mingw-w64-openlibm
 	sha256sums = c5bdddd295963c15dc67747f489c618eb107fb3877fd6987fbeed4ec2f2f44f4
 
 pkgname = mingw-w64-openlibm
-

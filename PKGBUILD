@@ -8,6 +8,7 @@ arch=('any')
 url="http://www.openlibm.org"
 license=('GPL')
 depends=('mingw-w64-crt')
+makedepends=('mingw-w64-make')
 options=('!strip' '!buildflags' 'staticlibs')
 source=("https://github.com/JuliaMath/openlibm/archive/v${pkgver}.tar.gz" "openlibm_mingw64.patch")
 sha256sums=('1699f773198018b55b12631db9c1801fe3ed191e618a1ee1be743f4570ae06a3' 'c5bdddd295963c15dc67747f489c618eb107fb3877fd6987fbeed4ec2f2f44f4')
